@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 220">
+  <title>Nature of complexity</title>
+  <defs>
+    <linearGradient id="complexityLine" x1="49" y1="55" x2="229" y2="164" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2f7de1"/>
+      <stop offset="48%" stop-color="#20b486"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <radialGradient id="complexityBack" cx="50%" cy="48%" r="60%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ecf6ff"/>
+    </radialGradient>
+    <filter id="complexityShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#172033" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <circle cx="140" cy="110" r="83" fill="url(#complexityBack)" filter="url(#complexityShadow)"/>
+  <g fill="none" stroke="#cad7e5" stroke-width="2.5">
+    <path d="M77 91h126"/>
+    <path d="M94 56l92 109"/>
+    <path d="M191 63L88 157"/>
+    <path d="M63 126l154-31"/>
+  </g>
+  <g fill="none" stroke="url(#complexityLine)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5">
+    <path d="M76 91c16-33 59-44 88-20 31 26 19 74-17 88-35 13-72-11-75-47"/>
+    <path d="M101 61c31 7 53 30 59 59 5 25 25 42 54 43"/>
+    <path d="M65 127c29-5 52 7 69 35 10-35 36-54 78-67"/>
+    <path d="M193 64c-8 27-4 52 14 75"/>
+  </g>
+  <g fill="#ffffff" stroke="#243b53" stroke-width="4">
+    <circle cx="76" cy="91" r="13"/>
+    <circle cx="101" cy="61" r="12"/>
+    <circle cx="193" cy="64" r="13"/>
+    <circle cx="215" cy="95" r="12"/>
+    <circle cx="207" cy="139" r="13"/>
+    <circle cx="214" cy="163" r="12"/>
+    <circle cx="134" cy="162" r="14"/>
+    <circle cx="72" cy="112" r="12"/>
+    <circle cx="65" cy="127" r="11"/>
+  </g>
+  <g fill="#243b53">
+    <circle cx="76" cy="91" r="4"/>
+    <circle cx="101" cy="61" r="4"/>
+    <circle cx="193" cy="64" r="4"/>
+    <circle cx="215" cy="95" r="4"/>
+    <circle cx="207" cy="139" r="4"/>
+    <circle cx="214" cy="163" r="4"/>
+    <circle cx="134" cy="162" r="4"/>
+    <circle cx="72" cy="112" r="4"/>
+    <circle cx="65" cy="127" r="4"/>
+  </g>
+</svg>

@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 560" preserveAspectRatio="xMidYMid slice">
+  <title>Criticality atlas hero background</title>
+  <defs>
+    <linearGradient id="heroSky" x1="0" y1="0" x2="1440" y2="560" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f7fbff"/>
+      <stop offset="48%" stop-color="#eef9f5"/>
+      <stop offset="100%" stop-color="#fff7df"/>
+    </linearGradient>
+    <linearGradient id="criticalLine" x1="188" y1="292" x2="1256" y2="256" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2f7de1"/>
+      <stop offset="48%" stop-color="#20b486"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <radialGradient id="centerGlow" cx="50%" cy="45%" r="46%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.96"/>
+      <stop offset="58%" stop-color="#ffffff" stop-opacity="0.76"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softLift" x="-20%" y="-30%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#24415f" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="1440" height="560" fill="url(#heroSky)"/>
+  <circle cx="720" cy="242" r="286" fill="url(#centerGlow)"/>
+
+  <g fill="none" stroke="#b8c8d8" stroke-width="2" opacity="0.32">
+    <path d="M90 132h360"/>
+    <path d="M90 190h360"/>
+    <path d="M90 248h360"/>
+    <path d="M90 306h360"/>
+    <path d="M132 86v266"/>
+    <path d="M206 86v266"/>
+    <path d="M280 86v266"/>
+    <path d="M354 86v266"/>
+    <path d="M428 86v266"/>
+  </g>
+
+  <g fill="none" stroke="#b8c8d8" stroke-linecap="round" stroke-width="2.4" opacity="0.36">
+    <path d="M986 114c64 42 142 23 211 62 72 40 64 129 154 172"/>
+    <path d="M945 214c62-50 143-46 204 8 54 48 113 47 190-4"/>
+    <path d="M993 360c76-72 170-84 278-35"/>
+    <path d="M1092 86c-27 66-9 126 56 180"/>
+    <path d="M1243 142c-61 51-80 111-56 181"/>
+  </g>
+
+  <g fill="#ffffff" stroke="#7590ad" stroke-width="4" opacity="0.86" filter="url(#softLift)">
+    <circle cx="132" cy="132" r="10"/>
+    <circle cx="280" cy="132" r="10"/>
+    <circle cx="428" cy="132" r="10"/>
+    <circle cx="206" cy="248" r="10"/>
+    <circle cx="354" cy="248" r="10"/>
+    <circle cx="132" cy="306" r="10"/>
+    <circle cx="428" cy="306" r="10"/>
+    <circle cx="986" cy="114" r="13"/>
+    <circle cx="1092" cy="86" r="12"/>
+    <circle cx="1243" cy="142" r="13"/>
+    <circle cx="1340" cy="218" r="12"/>
+    <circle cx="1149" cy="222" r="14"/>
+    <circle cx="1187" cy="323" r="13"/>
+    <circle cx="1351" cy="348" r="14"/>
+    <circle cx="993" cy="360" r="12"/>
+  </g>
+
+  <g fill="none" stroke="url(#criticalLine)" stroke-linecap="round" stroke-linejoin="round" filter="url(#softLift)">
+    <path d="M184 294c120-54 223-56 310-6 76 43 139 44 194 4 62-46 129-49 200-8 76 44 167 36 274-24"
+          stroke-width="9"/>
+    <path d="M256 352c70-33 137-28 201 13 83 53 166 41 249-34 81-75 169-78 264-9 58 42 126 43 203 4"
+          stroke-width="5" opacity="0.58"/>
+    <path d="M299 228c80-63 165-69 254-18 62 36 123 30 183-17 84-66 173-58 268 24 53 46 113 58 179 36"
+          stroke-width="5" opacity="0.52"/>
+  </g>
+
+  <g opacity="0.34">
+    <circle cx="720" cy="282" r="94" fill="none" stroke="#20b486" stroke-width="2.5"/>
+    <circle cx="720" cy="282" r="132" fill="none" stroke="#2f7de1" stroke-width="2"/>
+    <ellipse cx="720" cy="282" rx="174" ry="48" fill="none" stroke="#f59e0b" stroke-width="2.5"
+             transform="rotate(-11 720 282)"/>
+    <ellipse cx="720" cy="282" rx="174" ry="48" fill="none" stroke="#7f56d9" stroke-width="2.5"
+             transform="rotate(18 720 282)"/>
+  </g>
+
+  <g fill="#243b53" opacity="0.72">
+    <circle cx="720" cy="282" r="6"/>
+    <circle cx="592" cy="239" r="4"/>
+    <circle cx="846" cy="322" r="4"/>
+    <circle cx="663" cy="166" r="3.5"/>
+    <circle cx="788" cy="403" r="3.5"/>
+  </g>
+
+  <g fill="#ffffff" opacity="0.78">
+    <circle cx="69" cy="76" r="3"/>
+    <circle cx="506" cy="80" r="2.5"/>
+    <circle cx="870" cy="92" r="2.5"/>
+    <circle cx="1304" cy="80" r="3"/>
+    <circle cx="116" cy="430" r="2.5"/>
+    <circle cx="542" cy="466" r="3"/>
+    <circle cx="916" cy="446" r="2.5"/>
+    <circle cx="1349" cy="450" r="3"/>
+  </g>
+</svg>

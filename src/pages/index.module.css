@@ -1,0 +1,34 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.9)),
+    url('/img/criticality-atlas-hero.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: color-burn;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero__title{
+  color:black
+}

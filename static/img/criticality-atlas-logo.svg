@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img">
+  <title>Criticality Atlas logo</title>
+  <defs>
+    <linearGradient id="atlasSignal" x1="9" y1="42" x2="55" y2="22" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2f7de1"/>
+      <stop offset="48%" stop-color="#20b486"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="atlasRing" x1="14" y1="12" x2="50" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#243b53"/>
+      <stop offset="100%" stop-color="#516173"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="24" fill="#ffffff"/>
+  <circle cx="32" cy="32" r="23" fill="none" stroke="url(#atlasRing)" stroke-width="3"/>
+  <path d="M15 36c8-15 21-19 32-9" fill="none" stroke="#c7d3df" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M17 39c8-4 15-3 21 3 6 6 13 6 21-1" fill="none" stroke="url(#atlasSignal)" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="32" cy="32" rx="19" ry="7" fill="none" stroke="#20b486" stroke-width="2" opacity="0.75" transform="rotate(-18 32 32)"/>
+  <ellipse cx="32" cy="32" rx="19" ry="7" fill="none" stroke="#2f7de1" stroke-width="2" opacity="0.52" transform="rotate(24 32 32)"/>
+  <circle cx="32" cy="32" r="4.4" fill="#243b53"/>
+  <circle cx="17" cy="39" r="3.4" fill="#2f7de1"/>
+  <circle cx="38" cy="42" r="3.4" fill="#20b486"/>
+  <circle cx="59" cy="41" r="3.4" fill="#f59e0b"/>
+</svg>
