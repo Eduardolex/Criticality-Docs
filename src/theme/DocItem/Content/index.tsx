@@ -10,7 +10,6 @@ type Props = WrapperProps<typeof ContentType>;
 export default function ContentWrapper(props: Props): ReactNode {
   return (
     <>
-    <ValueDiagram/>
       <Content {...props} />
     </>
   );

@@ -66,12 +66,29 @@ const config: Config = {
     ],
   ],
 
+  themes: [
+    [
+      '@easyops-cn/docusaurus-search-local',
+      {
+        hashed: true,
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: true,
+        language: 'en',
+        searchBarPosition: 'right',
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+      },
+    ],
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     colorMode: {
       respectPrefersColorScheme: true,
     },
+    
     navbar: {
       title: 'Criticality Atlas',
       logo: {
@@ -89,29 +106,19 @@ const config: Config = {
       ],
     },
     footer: {
-      style: 'dark',
+      style: 'light',
       links: [
         {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/Brief Overview/Congratulations',
+              label:'Introduction',
+              to: '/docs/Philosophy/Introduction',
             },
           ],
         },
         {
-          title: 'Community',
-          items: [
           
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-           
-           
-          ],
         },
       ],
     },
