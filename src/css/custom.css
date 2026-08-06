@@ -52,3 +52,10 @@ background: linear-gradient(
     #f8fafc 60%,
     #ffffff 100%
   );}
+
+ .navbar__title:hover {
+  color: blue;
+}
+   .navbar__link:hover{
+    color: blue;
+  }
