@@ -54,8 +54,15 @@ background: linear-gradient(
   );}
 
  .navbar__title:hover {
-  color: blue;
+  color: rgb(74, 73, 95);
 }
    .navbar__link:hover{
-    color: blue;
+    color: rgb(74, 73, 95);
+  }
+  .theme-doc-sidebar-menu .menu__link--active {
+    color: rgb(74, 73, 95);
+  }
+  .categoryLinkLabel_W154{
+    font-weight: bold;
+    font-size: 20px
   }

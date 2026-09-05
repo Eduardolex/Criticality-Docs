@@ -8,6 +8,11 @@ type FeatureItem = {
   Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: ReactNode;
 };
+const users = [
+  { id: 1, name: "Bob", active: true },
+  { id: 2, name: "Alice", active: false },
+  { id: 3, name: "Steve", active: true },
+];
 
 const FeatureList: FeatureItem[] = [
   {
@@ -64,6 +69,14 @@ export default function HomepageFeatures(): ReactNode {
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
+        </div>
+        <div className='container'>
+          <h2>Users</h2>
+          <ul>
+            {users.map((user) => (
+            <li key={user.id}>{user.name} {user.active}</li>)
+            )}
+          </ul>
         </div>
       </div>
     </section>

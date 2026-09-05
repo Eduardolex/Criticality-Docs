@@ -1,0 +1,5 @@
+const users = [
+  { id: 1, name: "Bob", active: true },
+  { id: 2, name: "Alice", active: false },
+  { id: 3, name: "Steve", active: true },
+];
